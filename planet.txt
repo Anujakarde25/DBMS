@@ -1,0 +1,9 @@
+CREATE table planet (pno Int,
+pname Varchar(50),
+pcolour Varchar(30),
+pgforce int);
+Insert Into planet value(1, 'Earth', 'Blue', 9.8),
+Insert Into planet value(2, 'Mars', 'Red', 3.71),
+Insert Into planet value(3, 'Jupiter', 'Orange and White', 24.79),
+Insert Into planet value(4, 'Venus', 'Yellowish-white', 8.87);
+select * from planet;
