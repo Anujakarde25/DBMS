@@ -1,0 +1,9 @@
+Create table student(s_no int primary key,
+s_name char(30),
+address varchar(40),
+class varchar(10));
+
+insert into student values(101,'sanika','nagar','fy_BCA');
+insert into student values(102,'payal','nashik','sy_BBA');
+insert into student values(103,'prachita','Dhule','fy_Bcom');
+insert into student values(101,'tushar','satara','sy_BCS');
