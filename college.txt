@@ -1,0 +1,7 @@
+create table college (cno int primary key,
+cname varchar(30),
+caddr varchar(20));
+insert into college values (1,'rbnb','shrirampur');
+(2,'c.d.j','pune');
+(3,'acs','nagar');
+select * from college;
